@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import Coin from './components/Coin';
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Coin />
   </React.StrictMode>,
   document.getElementById('root')
 );
